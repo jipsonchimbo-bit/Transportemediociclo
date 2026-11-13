@@ -1,8 +1,7 @@
 
 package ec.edu.espoch.transportesmediociclo.model;
 
-public class ComunicationDevice {
-    public class CommunicationDevice {
+public class CommunicationDevice {
     private String codigo;
     private String descripcion;
     private boolean disponible;
@@ -18,5 +17,4 @@ public class ComunicationDevice {
     
     public boolean isDisponible() { return disponible; }
     public void setDisponible(boolean disponible) { this.disponible = disponible; }
-}
 }

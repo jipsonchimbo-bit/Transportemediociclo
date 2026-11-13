@@ -2,9 +2,6 @@
 package ec.edu.espoch.transportesmediociclo.model;
 
 public class Trail {
-
-
-
     private String nombre;
     private double longitud; 
     private int tiempoCaminata; 

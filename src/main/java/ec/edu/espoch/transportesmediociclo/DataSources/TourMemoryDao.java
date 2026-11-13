@@ -1,14 +1,15 @@
 
 package ec.edu.espoch.transportesmediociclo.DataSources;
 
+import ec.edu.espoch.transportesmediociclo.model.Tour;
 
-package DataSources;
 
-public class TourMemoryDAO implements TourDAO {
+
+public class TourMemoryDao implements TourDao {
     private Tour[] tours;
     private int contador;
 
-    public TourMemoryDAO(int capacidad) {
+    public TourMemoryDao(int capacidad) {
         this.tours = new Tour[capacidad];
         this.contador = 0;
     }
